@@ -1,0 +1,148 @@
+/*html{
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow-x: hidden;
+    }*/
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(125, 90, 125);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 27px;
+        margin: 0;
+        padding-top: 300px;
+        overflow-x: hidden;
+    }
+    h2{
+        padding-top: 10px;
+        margin-left:50px
+    }
+    header{
+        margin-top: 300px;
+        width: 100vw;
+        height: 500px;
+       
+        
+    }
+    .navbar__menu{
+        display: block;
+        /*display: flex;*/
+        /*margin-right: 250px;
+        padding-right: -250px;*/
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        background-color: rgb(10, 195, 165);
+        min-height: 5vh;
+        padding-top: 0;
+        text-decoration: none;
+        font-style: none;
+        color: aliceblue;
+        z-index: 1;
+    }
+    ul li {
+        display:inline-block;
+        /* padding-top: 50px; */
+        color: aliceblue;
+        margin: 10px;
+        text-decoration: none;
+    }
+    a{
+        color: aliceblue;
+        /*display: inline-block;*/
+        margin:1px;
+    }
+    p, h1, h2, h3, h4{
+        font-size: 27px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        margin-right: 10px;
+    
+    }
+    .container1{
+        margin-top: 150px;
+        display: flex;
+        height: 80vh;
+        width: 90vw;
+        transition: flex 5s ease-in;
+        /* z-index: -1; */
+    }
+    /* .container2{
+        width: 100vw;
+        margin-top: 290px;
+        margin-left: 0;
+        height: 35vh;
+    } */
+    .panel {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 80vh;
+        border-radius: 50px;
+        color: white;
+        cursor: pointer;
+        flex:0.9;
+        margin: 10px;
+        position: relative;
+        transition: flex 0.8s ease-in;
+    }
+    .panel h3{
+        font-size: 24px;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        margin:0;
+        opacity: 0;
+    }
+    .panel.active{
+        border-radius: 50px;
+        flex:5;
+    }
+    .panel.active h3{
+        opacity: 1;
+    }
+    
+    .footer{
+        /* height: 25vh; */
+        /*background-color: rgb(10, 195, 165);*/
+        color: aliceblue;
+        background-color: rgb(10, 195, 165);
+        width: 100vw;
+        height: 45vh;
+        margin-top: 50px;
+        /* margin: 0; */
+        margin-left: 10px;
+        padding: 0;
+    }
+    .about_me_sect{
+        image-orientation:  src="";
+    }
+    
+    .contact__us__section{
+        height: 0vh;
+        width: 100vw;
+    }
+    .contact__us{
+        padding: 40px;
+        background-color: rgb(10, 195, 165);
+    }
+    #fill_in_form{
+        display: inline-flex;
+    }
+    @media(max-width: 480px){
+        .container{
+            width: 100vw;
+        }
+        .panel:nth-of-type(4),.panel:nth-of-type(5){
+            display: none;
+        }
+    }

@@ -41,25 +41,18 @@ html{
 .container1{
     display: flex;
     flex-direction: column;
-    height: 75vh;
+    height: 1050px;
     width: 55vw;
     background-color: rgb(10, 195, 165);
     margin-top: 100px;
     margin-left: 500px;
 }
-.profile__pic{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    background-position: 20%;
-    background-image: url(./images/lady5.jpg);
-    margin-left: 50px;
-    height: 400px;
-    width: 300px;
+img{
+    height: 500px;
+    width: 600px;
 }
 .main__picture{
-    margin-top: -130px;
+    margin-top: -140px;
     background-position: 45%;
     height: 60vh;
     width: auto;
@@ -71,12 +64,15 @@ ul{
     display: flex;
     flex-direction: row;
 }
-li{
+a , li{
+    font-size: 24px;
+    color: aliceblue;
     margin: 20px;
     text-decoration: none;
     cursor: pointer;
 }
 .footer{
+    color: aliceblue;
     background-color: rgb(10, 195, 165);
     width: 100vw;
     margin-top: 400px;
@@ -85,8 +81,10 @@ li{
     padding: 0;
 }
 p, h1, h2, h3, h4{
+    font-size: 27px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 30px;
+    margin-right: 10px;
 
 }
