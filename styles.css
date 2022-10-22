@@ -52,9 +52,9 @@ img{
     width: 600px;
 }
 .main__picture{
-    margin-top: -140px;
+    margin-top: -130px;
     background-position: 45%;
-    height: 60vh;
+    height: 80vh;
     width: auto;
     background-size: 100%;
     background-image: url(../images/cars.jpg);
@@ -75,7 +75,7 @@ a , li{
     color: aliceblue;
     background-color: rgb(10, 195, 165);
     width: 100vw;
-    margin-top: 400px;
+    margin-top: 200px;
     /* margin: 0; */
     margin-left: -10px;
     padding: 0;
