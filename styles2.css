@@ -19,6 +19,7 @@
         margin: 0;
         padding-top: 300px;
         overflow-x: hidden;
+        z-index: 10;
     }
     h2{
         padding-top: 10px;
@@ -82,8 +83,113 @@
         margin-left: 0;
         height: 35vh;
     } */
-    .container1:hover .overlay{
-        opacity: 1;
+    .overlay{
+    background-color: white;
+    padding: 2rem;
+    position: absolute;
+    border-radius: 50px;
+    left:0;
+    right: 0;
+    bottom: 0;
+    height:80vh;
+    max-height:100%;
+    transform: translateY(101%);
+    transition: transform 3s ease-in;
+    z-index: -.2;
+    }
+    .overlay1{
+        background-color: white;
+        padding: 2rem;
+        position: absolute;
+        border-radius: 50px;
+        left:0;
+        right: 0;
+        bottom: 0;
+        height:80vh;
+        max-height:100%;
+        transform: translateY(101%);
+        transition: transform 3s ease-in;
+        /* z-index: -.2; */
+        }
+    .overlay2{
+        background-color: white;
+        padding: 2rem;
+        position: absolute;
+        border-radius: 50px;
+        left:0;
+        right: 0;
+        bottom: 0;
+        height:80vh;
+        max-height:100%;
+        transform: translateY(101%);
+        transition: transform 3s ease-in;
+        z-index: -.2;
+        }
+    .overlay3{
+        background-color: white;
+        padding: 2rem;
+        position: absolute;
+        border-radius: 50px;
+        left:0;
+        right: 0;
+        bottom: 0;
+        height:80vh;
+        max-height:100%;
+        transform: translateY(101%);
+        transition: transform 3s ease-in;
+        z-index: -.2;
+        }
+    .overlay4{
+        background-color: white;
+        padding: 2rem;
+        position: absolute;
+        border-radius: 50px;
+        left:0;
+        right: 0;
+        bottom: 0;
+        height:80vh;
+        max-height:100%;
+        transform: translateY(101%);
+        transition: transform 3s ease-in;
+        z-index: -.2;
+        }
+    .overlay5{
+        background-color: white;
+        padding: 2rem;
+        position: absolute;
+        border-radius: 50px;
+        left:0;
+        right: 0;
+        bottom: 0;
+        height:80vh;
+        max-height:100%;
+        transform: translateY(101%);
+        transition: transform 3s ease-in;
+        z-index: -.2;
+        }
+    .container1:hover .overlay{ 
+        opacity: .75;
+        transform:translateY(0%)
+    }
+    .container1:hover .overlay1{ 
+        opacity: .75;
+        transform:translateY(0%)
+    }
+    .container1:hover .overlay2{ 
+        opacity: .75;
+        transform:translateY(0%)
+    }
+    .container1:hover .overlay3{ 
+        opacity: .75;
+        transform:translateY(0%)
+    }
+    .container1:hover .overlay4{ 
+        opacity: .75;
+        transform:translateY(0%)
+    }
+    .container1:hover .overlay5{ 
+        opacity: .75;
+        transform:translateY(0%)
     }
     .panel {
         background-size: cover;
@@ -91,12 +197,13 @@
         background-repeat: no-repeat;
         height: 80vh;
         border-radius: 50px;
-        color: white;
+        color: black;
         cursor: pointer;
         flex:0.9;
         margin: 10px;
         position: relative;
         transition: flex 0.8s ease-in;
+        overflow: hidden;
     }
     .panel h3{
         font-size: 24px;
@@ -106,9 +213,15 @@
         margin:0;
         opacity: 0;
     }
+    .overlay.active{
+        opacity: 0;
+        
+    }
     .panel.active{
         border-radius: 50px;
         flex:5;
+        opacity: .75;
+        transform:translateY(0%)
     }
     .panel.active h3{
         opacity: 1;
@@ -125,6 +238,7 @@
         /* margin: 0; */
         margin-left: 10px;
         padding: 0;
+        z-index: 10;
     }
     .about_me_sect{
         image-orientation:  src="";
