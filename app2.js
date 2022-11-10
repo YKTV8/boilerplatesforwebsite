@@ -13,8 +13,6 @@ function removeActiveClass(){
     })
 }
 
-
-
 //Overlays functions for active class
 const overlays = document.querySelectorAll('.overlay');
 // console.log(overlays);
