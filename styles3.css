@@ -147,11 +147,11 @@ p, h1, h2, h3, h4{
     color: aliceblue;
     background-color: rgb(10, 195, 165);
     width: 100vw;
-    height: 45vh;
+    height: 35vh;
     margin-top: 50px;
-    /* margin: 0; */
-    margin-left: 10px;
+    margin-left: 0px;
     padding: 0;
+    line-height: 50px;
 }
 /* .about_me_sect{
     image-orientation:  src="";

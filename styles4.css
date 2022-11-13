@@ -7,17 +7,20 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: auto;
-    background-position: center 57%;
+    height: 100vh;
+    margin-bottom: 25px;
+    background-position: center 0%;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    transition: 0.s ease;
+    transition: 0.5s ease;
 }
 .container{
     max-width: 1200px;
     display: flex;
+    margin-top: 400px;
+    
 }
 .navbar__menu{
     display: flex;
@@ -98,12 +101,19 @@ body::before{
     color: blueviolet;
     font-weight: bolder;
 }
-
+/* .download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    border: 2px solid orange;
+} */
 .slider-container{
-    top: 60px;
+    top: -40px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0,0,0,0.23);
-    height: 70vh;
-    width: 70vw;
+    height: 60vh;
+    width: 60vw;
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -140,20 +150,22 @@ body::before{
     outline: 0;
 }
 .left-arrow{
-    left: calc(15vw - 30px);
+    left: calc(15vw - -40px);
     z-index: 3;
     
 }
 .right-arrow{
-    right: calc(15vw - 30px);
+    right: calc(15vw - -40px);
     z-index: 3;
 }
 .footer{
     color: aliceblue;
     background-color: rgb(10, 195, 165);
     width: 100vw;
-    height: 40vh;
+    height: min-content;
+    /* height: 55vh;
     margin-top: 50px;
+    margin-bottom: -200px; */
     margin-left: 0px;
     z-index: 2;
     line-height: 50px;

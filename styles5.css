@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 25px;
+    overflow-x: hidden;
+    transition: 0.5s ease;
+}
+.container{
+    max-width: 1200px;
+    display: flex;
+    margin-top: 400px;
+}
+.navbar__menu{
+    display: flex;
+    position: fixed;
+    height: 15vh;
+    background-color: rgb(10, 195, 165);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
