@@ -8,14 +8,14 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     overflow-x: hidden;
     transition: 0.5s ease;
 }
 .container{
     max-width: 1200px;
     display: flex;
-    margin-top: 400px;
+    margin-top: 50px;
 }
 .navbar__menu{
     display: flex;
@@ -26,5 +26,39 @@ body{
     left: 0;
     right: 0;
     transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
+.navbar__menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+}
+.img{
+    margin-top: 150px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: static;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/mountains.webp);
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+.footer{
+    color: aliceblue;
+    background-color: rgb(10, 195, 165);
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    line-height: 50px;
     z-index: 2;
 }
