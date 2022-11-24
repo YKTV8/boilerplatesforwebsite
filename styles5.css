@@ -8,9 +8,18 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* margin-bottom: 25px; */
+    margin-bottom: 25px;
     overflow-x: hidden;
     transition: 0.5s ease;
+    margin-top: 150px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: static;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-image: url(./images/mountains.webp);
+    background-attachment: fixed;
 }
 .container{
     max-width: 1200px;
@@ -36,28 +45,37 @@ body{
     justify-content: center;
     transition: all .3s ease-in-out;
 }
-.img{
-    margin-top: 150px;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    position: static;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(./images/mountains.webp);
-    background-attachment: fixed;
+li{
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* .img{
+   
+} */
+
+
+
+.content_forms{
+    color: black;
+    background-color: aliceblue;
+    opacity: .65;
+    padding: 25px;
+    font-size: 25px;
 }
 
-
-
-
-
-
 .footer{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     color: aliceblue;
+    font: 20px;
     background-color: rgb(10, 195, 165);
     width: 100%;
-    height: auto;
+    height: 45vh;
+    margin-bottom: -200px;
     margin-top: 100px;
     line-height: 50px;
     z-index: 2;

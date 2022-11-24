@@ -162,7 +162,7 @@ body::before{
     color: aliceblue;
     background-color: rgb(10, 195, 165);
     width: 100vw;
-    height: min-content;
+    height: 40vh;
     /* height: 55vh;
     margin-top: 50px;
     margin-bottom: -200px; */

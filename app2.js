@@ -14,8 +14,8 @@ function removeActiveClass(){
 }
 
 //Overlays functions for active class
-const overlays = document.querySelectorAll('.overlay');
-// console.log(overlays);
+const overlays = document.querySelectorAll('.panel');
+ console.log(overlays);
 overlays.forEach((overlays) =>{
     overlays.addEventListener('click', ()=>{
         removeActiveOverlay()
@@ -33,7 +33,7 @@ function removeActiveOverlay(){
     })
 }
 function addActiveOverlay(){
-    overlays.forEach(overylays =>{
+    overlays.forEach(overlays =>{
         overlays.classList.add('active')
     })
 }
